@@ -17,3 +17,9 @@ Water Attenuation (cλ​)     0.056 m−1
 Modulation                 On-Off Keying (OOK) 
 Turbulence Model           Multi-EGG (Weak, Moderate, Strong)
 
+
+# Key Findings
+Mirror Array Dominance: Consistently outperforms Metasurfaces due to its ability to dynamically align every micro-mirror element to satisfy the law of reflection.
+Spectral Efficiency: Mirror Arrays achieved a peak SE of approximately $30~bits/s/Hz$, significantly higher than Metasurfaces and flat mirrors.
+Turbulence Resilience: Mirror Arrays maintain better BER performance in turbulent water because their beams are more concentrated.
+Alignment Sensitivity: SE drops rapidly with receiver misalignment; however, the Mirror Array decays slower due to superior steering precision
