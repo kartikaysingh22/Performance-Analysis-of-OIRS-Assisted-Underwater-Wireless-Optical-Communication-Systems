@@ -1,4 +1,19 @@
 # Performance-Analysis-of-OIRS-Assisted-Underwater-Wireless-Optical-Communication-Systems
 This repository contains the MATLAB-based simulation framework and research findings for a comparative study between Mirror Array-based OIRS and Metasurface-based OIRS in Underwater Wireless Optical Communication (UWOC) systems.
+Optical Intelligent Reflecting Surfaces (OIRS) are a promising solution for Non-Line-of-Sight (NLOS) underwater links, providing high-bandwidth, low-latency alternatives to traditional acoustic and RF communication
 
-Performance Analysis of OIRS-Assisted Underwater Wireless Optical Communication Systems🌊 Project OverviewThis repository contains the MATLAB-based simulation framework and research findings for a comparative study between Mirror Array-based OIRS and Metasurface-based OIRS in Underwater Wireless Optical Communication (UWOC) systems.Optical Intelligent Reflecting Surfaces (OIRS) are a promising solution for Non-Line-of-Sight (NLOS) underwater links, providing high-bandwidth, low-latency alternatives to traditional acoustic and RF communication.✨ Key FeaturesDetailed Channel Modeling: Per-element modeling of incidence, irradiance, and reflection characteristics.Environmental Realism: Includes exponential underwater attenuation and Exponential-Generalized Gamma (EGG) turbulence models.Performance Metrics: Evaluates Spectral Efficiency (SE), Signal-to-Noise Ratio (SNR), and Bit Error Rate (BER).Architectural Comparison: Contrast between dynamic per-element steering (Mirror Array) and fixed-geometry steering (Metasurface).🛠️ System Model & ParametersThe simulation assumes a transmitter and receiver separated by 3 meters at a depth of 1 meter below an OIRS plane.ParameterValueOIRS Grid Size$13 \times 13$ (169 elements) Field of View (FOV)$90^{\circ}$ Water Attenuation ($c_{\lambda}$)$0.056~m^{-1}$ ModulationOn-Off Keying (OOK) Turbulence ModelMulti-EGG (Weak, Moderate, Strong) 📈 Key FindingsMirror Array Dominance: Consistently outperforms Metasurfaces due to its ability to dynamically align every micro-mirror element to satisfy the law of reflection.Spectral Efficiency: Mirror Arrays achieved a peak SE of approximately $30~bits/s/Hz$, significantly higher than Metasurfaces and flat mirrors.Turbulence Resilience: Mirror Arrays maintain better BER performance in turbulent water because their beams are more concentrated.Alignment Sensitivity: SE drops rapidly with receiver misalignment; however, the Mirror Array decays slower due to superior steering precision.📁 Repository Structure/MATLAB_Scripts: All .m files for SE, SNR, BER, and distance sweeps./Docs: The final project report and presentation PDF./Results: Generated plots for performance comparison.🎓 ContributorsIshi Agrawal (2023250): System diagrams, PPT preparation, and SE analysis.Kartikay Singh Jagirdar (2023278): Turbulence modeling, BER vs. SNR analysis, and distance-based results.Mentor: Mrs. Rehana Salam Department: ECE, IIIT-Delhi 📜 ReferencesThis work builds upon existing research in OIRS and UWOC, including:Salam, R., et al. "An Optical Intelligent Reflecting Surface-Assisted Underwater Wireless Communication System." Abdelhady, A. M., et al. "Visible Light Communications via Intelligent Reflecting Surfaces: Metasurfaces vs Mirror Arrays." 
+# Key Features
+Detailed Channel Modeling: Per-element modeling of incidence, irradiance, and reflection characteristics.
+Environmental Realism: Includes exponential underwater attenuation and Exponential-Generalized Gamma (EGG) turbulence models.
+Performance Metrics: Evaluates Spectral Efficiency (SE), Signal-to-Noise Ratio (SNR), and Bit Error Rate (BER).
+Architectural Comparison: Contrast between dynamic per-element steering (Mirror Array) and fixed-geometry steering (Metasurface)
+
+# System Model & Parameters
+The simulation assumes a transmitter and receiver separated by 3 meters at a depth of 1 meter below an OIRS plane.
+Parameter,Value
+OIRS Grid Size,13×13 (169 elements) 
+Field of View (FOV),90∘ 
+Water Attenuation (cλ​),0.056 m−1 
+Modulation,On-Off Keying (OOK) 
+Turbulence Model,"Multi-EGG (Weak, Moderate, Strong) +1"
+
