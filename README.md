@@ -10,10 +10,10 @@ Architectural Comparison: Contrast between dynamic per-element steering (Mirror 
 
 # System Model & Parameters
 The simulation assumes a transmitter and receiver separated by 3 meters at a depth of 1 meter below an OIRS plane.
-Parameter,Value
-OIRS Grid Size,13×13 (169 elements) 
-Field of View (FOV),90∘ 
-Water Attenuation (cλ​),0.056 m−1 
-Modulation,On-Off Keying (OOK) 
-Turbulence Model,"Multi-EGG (Weak, Moderate, Strong) +1"
+Parameter                  Value
+OIRS Grid Size             13×13 (169 elements) 
+Field of View (FOV)        90∘ 
+Water Attenuation (cλ​)     0.056 m−1 
+Modulation                 On-Off Keying (OOK) 
+Turbulence Model           Multi-EGG (Weak, Moderate, Strong)
 
