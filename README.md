@@ -10,12 +10,15 @@ Optical Intelligent Reflecting Surfaces (OIRS) are a promising solution for Non-
 
 # System Model & Parameters
 The simulation assumes a transmitter and receiver separated by 3 meters at a depth of 1 meter below an OIRS plane.
-Parameter                  Value
-OIRS Grid Size             13×13 (169 elements) 
-Field of View (FOV)        90∘ 
-Water Attenuation (cλ​)     0.056 m−1 
-Modulation                 On-Off Keying (OOK) 
-Turbulence Model           Multi-EGG (Weak, Moderate, Strong)
+- OIRS Grid Size  13×13 (169 elements) 
+- Element Size  0.08×0.08 m 
+- Field of View (FOV)  90∘ 
+- Water Attenuation (cλ​)  0.056 m−1 
+- LED Lambertian Order  m=2 
+- Modulation  On-Off Keying (OOK) 
+- Turbulence Model  Multi-EGG (Weak, Moderate, Strong)
+- Photodiode Responsivity (Re​)  0.5 
+- Noise Variance (σi2​)  10−12 
 
 
 # Key Findings
